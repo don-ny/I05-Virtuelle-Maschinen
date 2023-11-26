@@ -13,16 +13,17 @@ include::../_includes/default-attributes.inc.adoc[]
 | Meilenstein | Datum
 
 | Beginn der Iteration | 20.11.2023
-| Git workshop durchführen | 20.11.2023
-| Vision finalisieren | 01.12.2023
+| Git workshop durchgeführt | 20.11.2023
+| Iterationsplan 2 aufgestellt | 27.11.2023
+| Vision finalisiert | 29.11.2023
+| Risikoliste aufgestellt | 02.12.2023
+| Iterationsplan 3 aufgestellt | 03.12.2023
 | Ende der Iteration | 03.12.2023
 |===
 
 
 == Wesentliche Ziele
 //Nennen Sie 1-5 wesentliche Ziele für die Iteration.
-
-Beispiele:
 
 * Erarbeitung der Vision
 * Erstellen eines groben grafischen Prototyps zur Veranschaulichung der Hauptfunktionalität
@@ -35,7 +36,7 @@ Beispiele:
 == Aufgabenzuordnung
 //Dieser Abschnitt sollte einen Verweis auf die Work Items List enthalten, die die für diese Iteration vorgesehenen Aufgaben dokumentiert sowie die Zuordnung dieser Aufgaben zu Teammitgliedern. Alternativ können die Aufgaben für die Iteration und die Zuordnung zu Teammitgliedern in nachfolgender Tabelle dokumentiert werden - je nach dem, was einfacher für die Projektbeteiligten einfacher zu finden ist.
 
-Die in dieser Iteration geplanten Aufgaben sind in der Work Items List dargestellt (hier Verweis einfügen).
+Die in dieser Iteration geplanten Aufgaben sind in der https://github.com/users/henrikalbrecht/projects/2[Work Items List] dargestellt.
 
 _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 [%header, cols="3,1,1,1,2,1"]
@@ -50,6 +51,10 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 | Vision überarbeiten | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
 | Bestätigung Vision einholen | 1 | 1 | 29.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/14[#14]
 | Iterationsplan pflegen | n/a | n/a | fortlaufend | PK | n/a
+| Workshop branches & pull requests | 1 | 1 | 27.11.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/15[#15]
+| Risikoliste erstellen | 1 | 2 | 01.12.2023 | PK | https://github.com/henrikalbrecht/I05-Virtuelle-Maschinen/issues/12[#12]
+| Iterationsende: Review | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
+| Iterationsende: Retrospektive | 1 | 1 | 04.12.2023 | {project-team-name} | n/a
 |===
 
 
@@ -60,18 +65,21 @@ _alternativ:_ Die folgenden Aufgaben werden in dieser Iteration bearbeitet:
 |===
 | Problem | Status | Notizen
 
-| x | x | x
+| Aufgabenverteilung | open 
+a|* Die Verteilung der Aufgaben gestaltet sich mitunter schwierig, da das technische Verständnis über die Aufgabenstellung im Team noch nicht auf einem adäquaten Niveau ist.
+* Dadurch, dass issues in GitHub erst spät angelegt wurden, ist das Bewusstsein über den Projektumfang noch nicht ausgeprägt.
+| Git Workflow | open | Um die Arbeit an einzelnen Funktionalitäten in den Pull requests besser unterscheiden zu können, ist eine Arbeit mit branches notwendig. Die Arbeit mit branches muss bei einem weiteren Workshop während eines Team meetings vermittelt werden.
 |===
 
 
 == Bewertungskriterien
 //Eine kurze Beschreibung, wie Erfüllung die o.g. Ziele bewertet werden sollen.
 
-Beispiele:
-
-* 97% der Testfälle auf Systemebene sind erfolgreich.
-* Gemeinsame Inspektion des Iterations-Ergebnisses (Inkrement) mit den Abteilungen X und Y ergibt positive Rückmeldung.
-* Technische Präsentation / Demo erhält positive Rückmeldungen.
+* Auftraggeber hat finalisierte Vision bestätigt
+* Iterationspläne 2 und 3 liegen vor
+* GUI Prototyp liegt zum Auftraggeber-Meeting am 27.11.2023 vor
+* Risikoliste liegt mit min. 5 vollständigen Einträgen vor
+* Git Workshops wurden inkl. Erfolgskontrollen durchgeführt
 
 
 == Assessment
@@ -79,22 +87,33 @@ Beispiele:
 
 [%header, cols="1,3"]
 |===
-| Assessment Ziel | Das kann die gesamte Iteration oder eine spezifische Komponente sein
+| Review | Iteration 2
 
-| Assessment Datum | ...
-| Teilnehmer | ...
-| Projektstatus	| Zum Beispiel ausgedrückt als rot, gelb oder grün.
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *color* | Ziel...
 |===
 
-* Beurteilung im Vergleich zu den Zielen
+[%header, cols="1,3"]
+|===
+| Retrospektive | Iteration 2
+
+| Assessment Datum | 04.12.2023
+| Teilnehmer | {project-team-name}
+| Projektstatus: *color* | Ziel...
+|===
+
+
+// TODO
+//* Beurteilung im Vergleich zu den Zielen
 //Dokumentieren Sie, ob die angestrebten Ziele des Iterationsplans erreicht wurden.
 
-* Geplante vs. erledigte Aufgaben
+//* Geplante vs. erledigte Aufgaben
 //Zusammenfassung, ob alle für die Iteration geplanten Aufgaben bearbeitet wurden und welche Aufgaben verschoben oder hinzugefügt wurden.
 
-* Beurteilung im Vergleich zu den Bewertungskriterien
+//* Beurteilung im Vergleich zu den Bewertungskriterien
 //Document whether you met the evaluation criteria as specified in the Iteration Plan.
 //Geben Sie an, ob Sie die o.g. Bewertungskriterien erfüllt haben. Das kann z.B. folgende Informationen enthalten: “Demo for Department X was well-received, with some concerns raised around usability,” or “495 test cases were automated with a 98% pass rate. 9 test cases were deferred because the corresponding Work Items were postponed.”
 
-* Andere Belange und Abweichungen
+//* Andere Belange und Abweichungen
 //Führen Sie weitere Themen auf, für die eine Bewertung durchgeführt wurde. Beispiele sind Finanzen, Zeitabweichungen oder Feedback von Stakeholdern, die nicht bereits an anderer Stelle dokumentiert wurden.
